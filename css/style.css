@@ -1,0 +1,23 @@
+
+/* reset layout */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-header{
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid red;
+}
+
+.logo-img{
+    vertical-align: middle;
+}
+
+.logo-name{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
