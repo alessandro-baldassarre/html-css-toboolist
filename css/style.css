@@ -112,6 +112,11 @@ body{
     font-size: 10px;
     color: white;
 }
+.dodgerblue{
+
+    background-color:dodgerblue;
+
+}
 
 #add-task{
     background-color:dodgerblue;
@@ -124,7 +129,7 @@ body{
     border: 1px solid lightgray;
 }
 
-#dodgerblue{
+.dodgerblue{
 
     background-color:dodgerblue;
 
