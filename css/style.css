@@ -6,11 +6,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:rgb(243, 243, 243);
+    font-family: 'Roboto', sans-serif;
+}
+
 /* header */
 .logo-header{
     background-color: white;
     padding: 10px 20px;
-    border: 1px solid red;
+    
 }
 
 .logo-img{
@@ -26,26 +31,30 @@
 /* main */
 
 .container-main{
-    border: 1px solid red;
+    
     width: 80%;
     margin: 40px auto;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /* header main */
 .header-container-main{
-    border: 1px solid red;
+    
     padding: 20px 40px;
+    border-bottom: 2px solid rgb(243, 243, 243);;
 
 }
 
 .add{
-    border: 1px solid red;
+    
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
 }
 /* sezioni aggiunte */
 .section-container{
-    border: 1px solid red;
+    
     padding: 20px 40px;
 
 }
@@ -70,35 +79,73 @@
     margin-top: 10px;
 }
 
-.entity-check-mark{
+.entity-mark{
     display: inline-block;
     width: 18px;
     height: 18px;
-    border: 1px solid green;
     border-radius: 50%;
-    color: green;
     text-align: center;
     padding: 2px;
     font-size: 10px;
+    margin-right: 5px;
+
 }
 
-.entity-cross-mark{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
+.check-mark{
+    
+    border: 1px solid green;
+    color: green;
+
+}
+
+.cross-mark{
+
     border: 1px solid red;
-    border-radius: 50%;
     color: red;
-    text-align: center;
-    padding: 2px;
-    font-size: 10px;
 
 }
 
 .type-list{
     border-radius: 15px;
     background-color: lightblue;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 10px;
     color: white;
+}
+
+#add-task{
+    background-color:dodgerblue;
+    color: white;
+}
+
+#add-section{
+    background-color:white;
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+
+#dodgerblue{
+
+    background-color:dodgerblue;
+
+}
+
+#blueviolet{
+    background-color: blueviolet;
+}
+
+#green{
+    background-color: forestgreen;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#violet{
+    background-color:mediumvioletred;
+}
+
+#light-green{
+    background-color:rgb(118, 161, 31);
 }
