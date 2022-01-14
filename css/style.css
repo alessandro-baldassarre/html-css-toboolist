@@ -28,7 +28,6 @@
 .container-main{
     border: 1px solid red;
     width: 80%;
-    height: 400px;
     margin: 40px auto;
 }
 
@@ -47,7 +46,6 @@
 /* sezioni aggiunte */
 .section-container{
     border: 1px solid red;
-    height: 200px;
     padding: 20px 40px;
 
 }
@@ -64,7 +62,12 @@
 
 .section-list{
     list-style-type: none;
-    margin: 5px 0 20px;
+    margin: 5px 0 40px;
+}
+
+.list-item{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .entity-check-mark{
@@ -77,4 +80,25 @@
     text-align: center;
     padding: 2px;
     font-size: 10px;
+}
+
+.entity-cross-mark{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+
+}
+
+.type-list{
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
 }
